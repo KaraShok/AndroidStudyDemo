@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:overScrollMode="never"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <com.karashok.demouistudy.widget.paint.LinearGradientTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="是发达的阿斯蒂芬给我和我我和我是发达的阿"
+            android:textSize="30sp"
+            android:background="#000000"/>
+
+        <com.karashok.demouistudy.widget.paint.LinearGradientView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="10dp"/>
+
+        <com.karashok.demouistudy.widget.paint.BitmapShaderView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="10dp"/>
+
+        <com.karashok.demouistudy.widget.paint.ShapeDrawableView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="10dp"/>
+
+        <com.karashok.demouistudy.widget.paint.RadialGradientView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="10dp"/>
+
+        <com.karashok.demouistudy.widget.paint.SweepGradientView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="10dp"/>
+
+        <com.karashok.demouistudy.widget.paint.ComposeShaderView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="10dp"/>
+
+        <com.karashok.demouistudy.widget.paint.RadarGradientView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="10dp"/>
+
+        <com.karashok.demouistudy.widget.paint.ZoomImageView
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:layout_marginTop="10dp"/>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

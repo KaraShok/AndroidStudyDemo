@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:overScrollMode="never"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.karashok.demouistudy.widget.filter.BlurFilterView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginTop="10dp"/>
+
+        <com.karashok.demouistudy.widget.filter.EmbossFilterView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginTop="10dp"/>
+
+        <com.karashok.demouistudy.widget.filter.ColorMartrixFilterView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            app:cmfv_filter_type="1"
+            android:layout_marginTop="10dp" />
+
+        <com.karashok.demouistudy.widget.filter.ColorMartrixFilterView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            app:cmfv_filter_type="2"
+            android:layout_marginTop="10dp" />
+
+        <com.karashok.demouistudy.widget.filter.ColorMartrixFilterView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            app:cmfv_filter_type="3"
+            android:layout_marginTop="10dp" />
+
+        <com.karashok.demouistudy.widget.filter.ColorMartrixFilterView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            app:cmfv_filter_type="4"
+            android:layout_marginTop="10dp" />
+
+        <com.karashok.demouistudy.widget.filter.ColorMartrixFilterView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            app:cmfv_filter_type="5"
+            android:layout_marginTop="10dp" />
+
+        <com.karashok.demouistudy.widget.filter.ColorMartrixFilterView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            app:cmfv_filter_type="6"
+            android:layout_marginTop="10dp" />
+
+        <com.karashok.demouistudy.widget.filter.ColorMartrixFilterView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            app:cmfv_filter_type="7"
+            android:layout_marginTop="10dp" />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:overScrollMode="never"
+    android:scrollbars="none"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/teal_200">
+        <com.karashok.demouistudy.widget.xfermode.XfermodeExampleView
+            android:layout_width="match_parent"
+            android:layout_height="500dp"/>
+
+        <com.karashok.demouistudy.widget.xfermode.RoundImageView
+            android:layout_width="235dp"
+            android:layout_height="265dp"
+            android:layout_gravity="center_horizontal"
+            app:xriv_round_type="1"
+            android:layout_marginTop="10dp"/>
+
+        <com.karashok.demouistudy.widget.xfermode.RoundImageView
+            android:layout_width="235dp"
+            android:layout_height="265dp"
+            android:layout_gravity="center_horizontal"
+            app:xriv_round_type="2"
+            android:layout_marginTop="10dp"/>
+
+        <com.karashok.demouistudy.widget.xfermode.RoundImageView
+            android:layout_width="235dp"
+            android:layout_height="265dp"
+            android:layout_gravity="center_horizontal"
+            app:xriv_round_type="3"
+            android:layout_marginTop="10dp"/>
+
+        <com.karashok.demouistudy.widget.xfermode.TwitterView_MULTIPLY
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:layout_marginTop="10dp"/>
+
+        <com.karashok.demouistudy.widget.xfermode.LightBookView_LIGHTEN
+            android:layout_width="match_parent"
+            android:layout_height="533dp"
+            android:layout_marginTop="10dp"/>
+
+        <com.karashok.demouistudy.widget.xfermode.IrregularWaveView_DSTIN
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="10dp"/>
+
+        <com.karashok.demouistudy.widget.xfermode.InvertedImageView
+            android:layout_width="match_parent"
+            android:layout_height="530dp"
+            app:xiiv_inverted_type="1"
+            android:layout_marginTop="10dp"/>
+
+        <com.karashok.demouistudy.widget.xfermode.InvertedImageView
+            android:layout_width="match_parent"
+            android:layout_height="530dp"
+            app:xiiv_inverted_type="2"
+            android:layout_marginTop="10dp"/>
+
+        <com.karashok.demouistudy.widget.xfermode.InvertedImageView
+            android:layout_width="match_parent"
+            android:layout_height="530dp"
+            app:xiiv_inverted_type="3"
+            android:layout_marginTop="10dp"/>
+
+        <com.karashok.demouistudy.widget.xfermode.GuaGuaCardView_SRCOUT
+            android:layout_width="match_parent"
+            android:layout_height="326dp"
+            app:xiiv_inverted_type="3"
+            android:layout_marginTop="10dp"/>
+
+        <com.karashok.demouistudy.widget.xfermode.EraserView_SRCOUT
+            android:layout_width="match_parent"
+            android:layout_height="265dp"
+            android:layout_marginTop="10dp"/>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

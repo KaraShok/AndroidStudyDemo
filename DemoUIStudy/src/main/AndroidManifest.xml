@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.karashok.demouistudy">
+
+    <application>
+        <activity
+            android:name=".ui.activity.DemoPathMeasureActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.activity.DemoBezierActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.activity.DemoDrawableActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.activity.DemoXfermodeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.activity.DemoFilterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.activity.DemoPaintActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UIMainActivity"
+            android:exported="false" />
+    </application>
+</manifest>
