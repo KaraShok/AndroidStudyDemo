@@ -1,0 +1,40 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+        maven { url 'https://jitpack.io' }
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        maven { url 'https://jitpack.io' }
+    }
+}
+rootProject.name = "AndroidStudyDemo"
+include ':app' // 主应用
+include ':DemoAidlClient' // AIDL 客户端测试
+include ':DemoAidlServer' // AIDL 服务端测试
+include ':DemoUIStudy' // UI 相关测试
+include ':DemoEventBus' // EventBus
+include ':DemoRxJava' // RxJava
+include ':DemoOkHttp' // OKHttp
+include ':DemoHermes' // Hermes 跨进程 EventBus
+include ':DemoIOC' // IOC 控制反转，动态代理
+include ':DemoAOP' // AOP AspectJ 面向切面
+include ':DemoRouterCompiler' // Router 编译时处理
+include ':DemoRouterAnnotation' // Router 注解
+include ':DemoRouterCore' // Router 核心类
+include ':DemoRouter' // Router 测试
+include ':DemoInstrumentationBase' // 插桩基础类
+include ':DemoInstrumentationHost' // 插桩宿主
+include ':DemoInstrumentation1' // 插桩应用
+include ':DemoHook'
+include ':DemoImgOptimization' // 图片优化
+include ':DemoSkin' // 动态换肤
+include ':DemoSkin_1'
+include ':DemoSkinCore'
+include ':DemoGlide'
